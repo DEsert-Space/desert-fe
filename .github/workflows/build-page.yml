@@ -1,0 +1,14 @@
+name: Build Vue
+on: [push]
+jobs:
+  build_vue:
+    runs-on: ubuntu-latest
+    name: Build Vue
+    steps:
+      - uses: actions/checkout@v2
+      - id: Build-Vue
+        uses: undownding/VuePagesAction@1.0.3
+        with:
+          username: 'DEsert-Space'
+          reponame: 'desert-fe'
+          token: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
