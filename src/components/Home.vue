@@ -1,6 +1,13 @@
 <template>
     <div class="space">
+
+      <div>
+        <img src="../assets/bg_desert.png" class="bg-desert" />
+        <div class="spaceman">
+          <img src="../assets/spaceman.png" style="width: 100%"/>
+        </div>
         <img src="../assets/union.png" class="max-width"/>
+      </div>
         <div class="textbox1">
             <h2>Scale Matters</h2>
             <p>When we dream, we dream big. Metaverse should not be just a few blocks or neighborhoods. </p>
@@ -71,8 +78,21 @@
 @import url('https://fonts.googleapis.com/css?family=Impact');
 
 .max-width {
-    width: 100%
+  width: 100%;
+  margin-top: -10%;
 }
+
+.bg-desert {
+  margin-top: -220px;
+  width: 100%;
+}
+
+.spaceman {
+  width: 100%;
+  position: absolute;
+  top: 46%;
+}
+
 .space {
     width: 100%;
     height: auto;
@@ -143,7 +163,7 @@
 }
 
 .flex_container {
-   display: flex; 
+   display: flex;
    flex-direction: row;
    flex-wrap: wrap;
    justify-content: space-between;
@@ -157,7 +177,7 @@
 
 .footer_box {
     display: flex;
-    flex-direction: row-reverse; 
+    flex-direction: row-reverse;
 }
 
 .box1text {
