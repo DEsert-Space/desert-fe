@@ -7,16 +7,24 @@
           <img src="../assets/spaceman.png" style="width: 100%"/>
         </div>
         <img src="../assets/union.png" class="max-width"/>
+        <div class="box-logo-text">
+          <h2>Project DEsert</h2>
+          <p>Create your own Metaverse in minutes</p>
+        </div>
       </div>
         <div class="textbox1">
+          <img src="../assets/logo.png" class="img_logo">
             <h2>Scale Matters</h2>
             <p>When we dream, we dream big. Metaverse should not be just a few blocks or neighborhoods. </p>
             <p>Project DEsert is here to provide next-gen human being a fictitious space to create their own Metaverse.</p>
         </div>
         <div class="textbox3">
+          <img src="../assets/bg_galaxy.png" class="bg-galaxy" />
+          <div>
             <h2>Stylish Stars and Planets Sold as NFTs</h2>
             <p>With Stars and Planets designed by artists around the globe, DEsert provides </p>
             <p>a Metaverse filling with galaxies beyond your imagination. </p>
+          </div>
         </div>
         <img src="../assets/img_shop.png" class="img_shop">
         <div class="textbox4">
@@ -77,20 +85,45 @@
 
 @import url('https://fonts.googleapis.com/css?family=Impact');
 
+.box-logo-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 600px;
+  position: absolute;
+  left: 35%;
+  top: 100%;
+}
+
+.box-logo-text p {
+  margin-top: -25px;
+}
+
+.img_logo {
+  position: absolute;
+  left: 91px;
+  top: 35px;
+}
+
 .max-width {
   width: 100%;
-  margin-top: -10%;
 }
 
 .bg-desert {
-  margin-top: -220px;
+  margin-top: -140px;
   width: 100%;
+}
+
+.bg-galaxy {
+  width: 100%;
+  margin-left: 20%;
+  object-fit: cover;
 }
 
 .spaceman {
   width: 100%;
   position: absolute;
-  top: 46%;
+  top: 68%;
 }
 
 .space {
@@ -125,8 +158,15 @@
 }
 
 .textbox3 {
+  max-width: 100%;
+  overflow: hidden;
   margin-left: 248px;
   margin-top: 300px;
+}
+
+.textbox3 div {
+  margin-top: -60%;
+  margin-bottom: 30%;
 }
 
 .textbox4 {
@@ -136,7 +176,7 @@
 
 .img_shop {
     margin-left: 275px;
-    margin-top: 576px;
+    margin-top: 50px;
 }
 
 .img_box {
