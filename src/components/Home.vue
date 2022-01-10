@@ -101,7 +101,7 @@
 
 .vh80 {
   width: 100%;
-  height: 80vh;
+  height: 50vh;
 }
 
 .box-logo-text h2 {
