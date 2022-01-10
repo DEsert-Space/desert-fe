@@ -3,7 +3,7 @@
 
     <div>
       <div class="bg-desert">
-        <img src="../assets/spaceman.png" class="spaceman">
+        <img src="../assets/spaceman.webp" class="spaceman">
         <div class="box-logo-text">
           <h2>Project DEsert</h2>
           <p>Create your own Metaverse in minutes</p>
@@ -12,24 +12,24 @@
     </div>
     <div class="vh100">
       <div class="union">
-        <img src="../assets/shadow.png" class="shadow">
+        <img src="../assets/shadow.webp" class="shadow">
       </div>
       <div class="textbox1">
-        <img src="../assets/logo.png" class="img_logo">
+        <img src="../assets/logo.webp" class="img_logo">
         <h2>Scale Matters</h2>
         <p>When we dream, we dream big. Metaverse should not be just a few blocks or neighborhoods. </p>
         <p>Project DEsert is here to provide next-gen human being a fictitious space to create their own Metaverse.</p>
       </div>
     </div>
     <div class="textbox3">
-      <img src="../assets/bg_galaxy.png" class="bg-galaxy"/>
+      <img src="../assets/bg_galaxy.webp" class="bg-galaxy"/>
       <div>
         <h2>Stylish Stars and Planets Sold as NFTs</h2>
         <p>With Stars and Planets designed by artists around the globe, DEsert provides </p>
         <p>a Metaverse filling with galaxies beyond your imagination. </p>
       </div>
     </div>
-    <img src="../assets/img_shop.png" class="img_shop">
+    <img src="../assets/img_shop.webp" class="img_shop">
     <div class="textbox4">
       <h2>Own a Planet, not a Building</h2>
       <p>Imagine what you can do when you have a whole planet to manage and run.</p>
@@ -37,7 +37,7 @@
       <p>Play DEsert like a simulation game, with tons of templates we prepared, you can have your planet up and running in few minutes.</p>
     </div>
     <div class="img_box">
-      <img src="../assets/plant.png" class="img_plant">
+      <img src="../assets/plant.webp" class="img_plant">
     </div>
     <div class="textbox5">
       <h2>Create Metaverse Applications with Standards Together</h2>
@@ -46,33 +46,33 @@
         provide a much better user experience for users who really want to get into Metaverse.</p>
     </div>
     <div class="img_box">
-      <img src="../assets/ship.png" class="img_ship">
+      <img src="../assets/ship.webp" class="img_ship">
     </div>
     <h2 class="text_look">We’re Looking For…</h2>
     <div class="flex_container">
       <div class="flex_box">
-        <img src="../assets/people1.png">
+        <img src="../assets/people1.webp">
         <div class="box1text">
           <h2>Project Partners </h2>
           <p>Who are veterans in blockchain and NFT fields.</p>
         </div>
       </div>
       <div class="flex_box">
-        <img class="box2img" src="../assets/people2.png">
+        <img class="box2img" src="../assets/people2.webp">
         <div class="box2text">
           <h2>Developers</h2>
           <p>Who have solid understanding in blockchain and open source.</p>
         </div>
       </div>
       <div class="flex_box box3">
-        <img src="../assets/people3.png">
+        <img src="../assets/people3.webp">
         <div class="box3text">
           <h2>Community Manager</h2>
           <p>Who has experience in blockchain project operation.</p>
         </div>
       </div>
       <div class="flex_box box3">
-        <img src="../assets/people4.png">
+        <img src="../assets/people4.webp">
         <div>
           <h2>Interns</h2>
           <p>Who have solid education background and interests in exploring cutting edge fields.</p>
@@ -81,7 +81,7 @@
     </div>
     <div class="footer_box">
       <h2>Your Metaverse, Your Rules</h2>
-      <img src="../assets/footer.png">
+      <img src="../assets/footer.webp">
     </div>
   </div>
 </template>
@@ -122,7 +122,7 @@
 .union {
   width: 100%;
   height: 460px;
-  background: url("../assets/union.png") no-repeat bottom;
+  background: url("../assets/union.webp") no-repeat bottom;
   background-size: 100% 300px;
 }
 
@@ -133,7 +133,7 @@
 .bg-desert {
   width: 100%;
   height: 100vh;
-  background: url("../assets/bg_desert.png") no-repeat bottom center;
+  background: url("../assets/bg_desert.webp") no-repeat bottom center;
   background-size: 100%;
 }
 
@@ -152,7 +152,7 @@
 .space {
   width: 100%;
   height: auto;
-  background-image: url("../assets/bg_space.png");
+  background-image: url("../assets/bg_space.webp");
   background-repeat: repeat;
 }
 
