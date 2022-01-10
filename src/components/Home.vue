@@ -10,7 +10,7 @@
         </div>
       </div>
     </div>
-    <div class="vh100">
+    <div class="vh80">
       <div class="union">
         <img src="../assets/shadow.webp" class="shadow">
       </div>
@@ -99,9 +99,9 @@
   top: 80%;
 }
 
-.vh100 {
+.vh80 {
   width: 100%;
-  height: 100vh;
+  height: 80vh;
 }
 
 .box-logo-text h2 {
@@ -184,7 +184,6 @@
   max-width: 100%;
   overflow: hidden;
   margin-left: 248px;
-  margin-top: 300px;
 }
 
 .textbox3 div {
