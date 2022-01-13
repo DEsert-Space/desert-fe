@@ -287,4 +287,120 @@
   left: 100px;
 }
 
+@media screen and (max-width: 768px) {
+
+  .box-logo-text {
+    display: none;
+  }
+
+  .space h2 {
+    margin: 16px;
+  }
+
+  .space p {
+    margin: 16px;
+  }
+  /* TODO: replace the bg*/
+  .bg-desert {
+    width: 100%;
+    height: 100vh;
+    background: url("../assets/bg_desert.webp") no-repeat bottom center;
+    background-size: 100%;
+  }
+
+  .img_logo {
+    position: absolute;
+    left: 47px;
+    top: 35px;
+  }
+
+  .textbox1 {
+    margin: 0;
+  }
+
+  .vh80 {
+    height: auto;
+  }
+
+  .textbox3 {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 0;
+    margin-top: 20vh;
+  }
+
+  .bg-galaxy {
+    margin-left: 0;
+    margin-top: -35vh;
+    margin-bottom: 10vh;
+  }
+
+  .textbox3 div {
+    margin-top: 0;
+  }
+
+  .img_shop {
+    margin: 0 0 0 16px;
+    width: 50%;
+  }
+
+  .textbox4 {
+    margin: 0;
+  }
+
+  .img_plant {
+    margin: 0;
+    width: 75%;
+  }
+
+  .textbox5 {
+    margin: 0;
+  }
+
+  .img_ship {
+    margin: 0;
+    width: 100%;
+  }
+
+  .flex_container {
+    margin: 0;
+    width: 100%;
+  }
+
+  .box1text {
+    margin: 0;
+  }
+
+  .box2img {
+    margin: 0;
+  }
+
+  .box2text {
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .box3 {
+    flex-direction: column;
+  }
+
+  .box3 img {
+    margin: 0;
+  }
+
+  .box3 div {
+    max-width: 100%;
+  }
+
+  .footer_box {
+    flex-direction: column;
+  }
+
+  .footer_box h2 {
+    position: unset;
+    font-size: 55px;
+  }
+
+}
+
 </style>

@@ -22,4 +22,10 @@ import Home from './components/Home.vue'
 body {
   margin: 0px
 }
+
+@media screen and (max-width: 768px) {
+  body {
+    width: 100vw;
+  }
+}
 </style>
