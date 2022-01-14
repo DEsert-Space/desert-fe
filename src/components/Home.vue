@@ -4,6 +4,7 @@
     <div>
       <div class="bg-desert">
         <img src="../assets/spaceman.webp" class="spaceman">
+        <img src="../assets/spaceman_mobile.png" class="spaceman_mobile" >
         <div class="box-logo-text">
           <h2>Project DEsert</h2>
           <p>Create your own Metaverse in minutes</p>
@@ -13,6 +14,7 @@
     <div class="vh80">
       <div class="union">
         <img src="../assets/shadow.webp" class="shadow">
+        <img src="../assets/shadow_mobile.png" class="shadow_mobile">
       </div>
       <div class="textbox1">
         <img src="../assets/logo.webp" class="img_logo">
@@ -65,7 +67,8 @@
         </div>
       </div>
       <div class="flex_box box3">
-        <img src="../assets/people3.webp">
+        <img v-if="$isMobile()" src="../assets/people3_mobile.png">
+        <img v-else src="../assets/people3.webp">
         <div class="box3text">
           <h2>Community Manager</h2>
           <p>Who has experience in blockchain project operation.</p>
@@ -81,7 +84,8 @@
     </div>
     <div class="footer_box">
       <h2>Your Metaverse, Your Rules</h2>
-      <img src="../assets/footer.webp">
+      <img v-if="$isMobile()" src="../assets/footer-mobile.png">
+      <img v-else src="../assets/footer.webp">
     </div>
   </div>
 </template>
@@ -130,6 +134,10 @@
   width: 100%;
 }
 
+.shadow_mobile {
+  display: none;
+}
+
 .bg-desert {
   width: 100%;
   height: 100vh;
@@ -147,6 +155,10 @@
   width: 100%;
   position: absolute;
   bottom: 0;
+}
+
+.spaceman_mobile {
+  display: none;
 }
 
 .space {
@@ -304,8 +316,35 @@
   .bg-desert {
     width: 100%;
     height: 100vh;
-    background: url("../assets/bg_desert.webp") no-repeat bottom center;
+    background: url("../assets/bg_desert_mobile.jpg") no-repeat bottom center;
     background-size: 100%;
+  }
+
+
+  .spaceman_mobile {
+    display: block;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .spaceman {
+    display: none;
+  }
+
+  .union {
+    height: 13vh;
+    background-size: auto;
+  }
+
+  .shadow {
+    display: none;
+  }
+
+  .shadow_mobile {
+    display: block;
+    height: 10vh;
+    width: 100%;
   }
 
   .img_logo {

@@ -958,6 +958,13 @@ vue-demi@*:
   resolved "https://mirrors.cloud.tencent.com/npm/vue-demi/-/vue-demi-0.12.1.tgz"
   integrity sha512-QL3ny+wX8c6Xm1/EZylbgzdoDolye+VpCXRhI2hug9dJTP3OUJ3lmiKN3CsVV3mOJKwFi0nsstbgob0vG7aoIw==
 
+vue-mobile-detection@^2.0.1:
+  version "2.0.1"
+  resolved "http://mirrors.cloud.tencent.com/npm/vue-mobile-detection/-/vue-mobile-detection-2.0.1.tgz#c9c17a26c7944a20b5afaa5f1617149db45fadd1"
+  integrity sha512-ziB0Rp8Snp08+p7E+WCRzeYYYp0ddPaqHlFxWN0kpLAddB5D/PRwgIv18P08hkhwNFRgBQ71T19jNIbttR7P0g==
+  dependencies:
+    vue "^3.2.20"
+
 vue-tsc@^0.29.8:
   version "0.29.8"
   resolved "https://mirrors.cloud.tencent.com/npm/vue-tsc/-/vue-tsc-0.29.8.tgz"
@@ -966,7 +973,7 @@ vue-tsc@^0.29.8:
     "@volar/shared" "0.29.8"
     vscode-vue-languageservice "0.29.8"
 
-vue@^3.2.25:
+vue@^3.2.20, vue@^3.2.25:
   version "3.2.26"
   resolved "http://mirrors.cloud.tencent.com/npm/vue/-/vue-3.2.26.tgz"
   integrity sha512-KD4lULmskL5cCsEkfhERVRIOEDrfEL9CwAsLYpzptOGjaGFNWo3BQ9g8MAb7RaIO71rmVOziZ/uEN/rHwcUIhg==
