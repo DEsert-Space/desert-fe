@@ -67,7 +67,7 @@
         </div>
       </div>
       <div class="flex_box box3">
-        <img v-if="$isMobile()" src="../assets/people3_mobile.png">
+        <img v-if="$isMobile" src="../assets/people3_mobile.png">
         <img v-else src="../assets/people3.webp">
         <div class="box3text">
           <h2>Community Manager</h2>
@@ -84,15 +84,16 @@
     </div>
     <div class="footer_box">
       <h2>Your Metaverse, Your Rules</h2>
-      <img v-if="$isMobile()" src="../assets/footer-mobile.png">
+      <img v-if="$isMobile" src="../assets/footer-mobile.png">
       <img v-else src="../assets/footer.webp">
     </div>
   </div>
 </template>
 <script>
 import { useMobileDetection } from 'vue3-mobile-detection'
+import {defineComponent} from 'vue'
 
-export default Home({
+export default defineComponent({
   setup() {
     const { isMobile } = useMobileDetection()
     return { isMobile }
