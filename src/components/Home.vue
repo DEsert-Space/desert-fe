@@ -89,6 +89,16 @@
     </div>
   </div>
 </template>
+<script>
+import { useMobileDetection } from 'vue3-mobile-detection'
+
+export default Home({
+  setup() {
+    const { isMobile } = useMobileDetection()
+    return { isMobile }
+  }
+});
+</script>
 <style scoped>
 
 @import url('https://fonts.googleapis.com/css?family=Impact');
